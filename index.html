@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link htef="https://fontmeme.com/3d-fonts/">
+  <title>Unfair BreackOut</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Start Page -->
+  <div id="startPage">
+
+
+    <!-- About us  -->
+    <div id="about-Us">
+      <button id="closeAbout" onclick="closeAbout()">X</button>
+      <div id="head-about"><a href="https://m.apkpure.com/developer/SpotDoit#menu"><span id="brand">Spot Doit
+            Corporation</span></a></div>
+      <div>Created by<br>
+        <span id="Mname"> ~ Riyank Patel</span>
+      </div>
+      <div id="cprt">COPYRIGHT©-2020 All rights reserved</div>
+      <a href="https://m.apkpure.com/developer/SpotDoit#menu">
+        <h6>Click here for more games</h6>
+      </a>
+    </div>
+    <!--Settings  -->
+    <div id="settings">
+      <button id="closeSettings" onclick="closeSettings()">X</button>
+      <div id="gameLdiv">
+        LEVEL<select id="gameLevel">
+          <option value="Beginner">Beginner</option>
+          <option value="Expert">Expert</option>
+        </select>
+      </div>
+      <div id="soundcntrl">
+        Sound<div id="sound" onclick="soundOnOff()"></div>
+      </div>
+    </div>
+
+    <div id="title"></div>
+    <div id="start-cntrl">
+      <button id="start" onclick="start()">START</button>
+      <button id="rules" onclick="openSettings()">Settings</button>
+      <button id="aboutUs" onclick="openAbout()">About Us</button>
+    </div>
+  </div>
+
+  <!-- Game Area -->
+  <div id="gameArea">
+    <div id="out-box">
+      Game Over!
+      <div>YOUR SCORE : <span id="Fscore"></span></div>
+      <div id="out-btn">
+        <button id="home">Home</button>
+        <button id="restart">Retry</button>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <audio id="paddleSound">
+    <source src="audio/goal2.mp3">
+  </audio>
+
+  <audio id="brickSound">
+    <source src="audio/goal1.mp3">
+  </audio>
+
+  <audio id="levelUpSound">
+    <source src="audio/start2.mp3">
+  </audio>
+
+  <audio id="outSound">
+    <source src="audio/failure1.mp3">
+  </audio>
+
+  <audio id="gameOverSound">
+    <source src="audio/failure3.mp3">
+  </audio>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+    background-color:black;
+}
+#startPage{
+    width:100%;
+    height:100vh;
+    display:flex;  /*flex*/
+    background-image:url("images/start\ page.jpg");
+    flex-direction:column;
+    align-items:center ;
+    background-size:100% 100vh;
+    background-repeat:no-repeat ;
+}
+#settings{
+    width:30vw;
+    height:50vh;
+    border-radius:10px;   
+     background-image:url("images/about-and-out.jpg");
+    background-repeat:no-repeat ;
+    background-size:30vw 50vh;
+    display:none;  /*flex*/
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center ;
+    font-family: 'Baloo Bhai';
+    font-size:3vh;
+    position:absolute;
+    font-weight:bold;
+    color:white;
+    top:27%;
+    border:5px double blue;
+}
+#gameLevel{
+    width:40vw;
+    height:5vh;
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+    color:yellow;
+    font-family: 'Baloo Bhai';
+    font-size:3vh;
+    border-radius:50px;
+    outline:none;
+    background-color:black;
+    border:2px solid white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#gameLdiv{
+    width:20vw;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center ;
+}
+#soundcntrl{
+    width:20vw;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center ;
+}
+#sound{
+    display:flex;
+    justify-content:center ;
+    width:40vw;
+    color:yellow;
+    cursor: pointer;
+}
+#closeSettings,#closeAbout{
+    width:27px;
+    height:27px;
+    display:flex;
+    align-items:center ;
+    justify-content:center ;
+    background-color:red;
+    outline-color:blue;
+    position:absolute ;
+    border-radius: 50px;
+    right:0;
+    top:0;
+    cursor: pointer;
+}
+#about-Us{
+    width:30vw;
+    height:70vh;
+    border-radius:10px;    
+    background-image:url("images/about-and-out.jpg");
+    background-repeat:no-repeat ;
+    background-size:30vw 70vh;
+    display:none;  /*flex*/
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center ;
+    font-family: 'Baloo Bhai';
+    font-size:3vh;
+    position:absolute;
+    font-weight:bold;
+    color:white;
+    top:10%;
+    border:5px double blue;
+}
+#brand,h6{
+color:red;
+}
+#Mname{
+    color:yellow;
+}
+#title{
+    display:flex;
+    width:100%;
+    height:15vh; 
+    background-image:url("images/title.png");
+    margin-top:5vh;
+    background-size:100% 15vh;
+    background-repeat:no-repeat ;
+}
+
+#gameArea{
+    display:none; /*flex*/
+    flex-direction:column;
+    justify-content:center ;
+    align-items: center;
+    background-color:black;
+}
+#canvas{
+    width:700px;
+    height:700px;
+    margin-top:10px;
+    border:1px solid blue;
+    border-bottom:2px solid red;
+}
+#btn-cntrl{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+}
+#btnL,#btnR{
+    width:45%;
+    height:10vh;
+    background-color:orange;
+}
+#out-box{
+    width:30vw;
+    height:42vh;
+    border-radius:70px;    
+    background-image:url("images/about-and-out.jpg");
+    background-repeat:no-repeat ;
+    background-size:30vw 43vh;
+    display:none;  /*flex*/
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center ;
+    font-family: 'Baloo Bhai';
+    font-size:3vh;
+    position:absolute;
+    font-weight:bold;
+    color:white;
+    left:37%;
+    border:5px double red;
+    opacity:.7;
+}
+#start-cntrl{
+    margin-top:17vh;
+    height:32vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#out-btn{
+    display:flex;
+    width:30vw;
+    justify-content:space-around;
+}
+
+#restart,#start,#aboutUs,#rules,#home{
+    width:57vw;
+    height:7.7vh;
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+    color:yellow;
+    font-family: 'Baloo Bhai';
+    font-size:3vh;
+    border-radius:50px;
+    outline:none;
+    background-color:rgb(0,0,0,0.3);
+    border:1px solid blue;
+    border-left-width:5px;
+    border-right-width:5px;
+    cursor: pointer;
+}
+#home, #restart{
+    width:10vw; 
+    color:yellow;
+    background-color:rgb(0,0,0);
+    border-color:red;
+}
