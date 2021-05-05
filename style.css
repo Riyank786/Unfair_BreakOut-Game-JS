@@ -127,8 +127,8 @@ color:red;
     background-color:black;
 }
 #canvas{
-    width:50vw;
-    height:50vh;
+    width:500px;
+    height:500px;
     margin-top:10px;
     border:1px solid blue;
     border-bottom:2px solid red;
