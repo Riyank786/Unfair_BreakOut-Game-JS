@@ -2,7 +2,10 @@
 Unfair BreakOut is a simple 2D breakout game made with JS in the canvas element of the HTML.This is a desktop web game.
 
 ## See Demo Here
-https://riyank786.github.io/Unfair_BreakOut-Game-JS/
+
+For DeskTop : https://riyank786.github.io/Unfair_BreakOut-Game-JS/
+
+For Mobile : https://github.com/Riyank786/Unfair_BreakOut_JS-Mobile.git
 
 ## ScreenShots
 
