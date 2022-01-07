@@ -23,7 +23,7 @@ const PADDLE_HEIGHT = 3;
 const PADDLE_MARGIN_BOTTOM = 3;
 
 // list of levels 
-let listOfLevels = [/*0*/"LEVEL-IMAGES/2.jpg", /*1*/"LEVEL-IMAGES/3.jpg", /*2*/"LEVEL-IMAGES/4.jpg", /*3*/"LEVEL-IMAGES/5.jpg", /*4*/"LEVEL-IMAGES/6.jpgZQ&s", /*5*/"LEVEL-IMAGES/7.jpg", /*6*/"LEVEL-IMAGES/8.jpg", /*7*/"LEVEL-IMAGES/9.jpg", /*8*/"LEVEL-IMAGES/10.jpg", /*9*/"LEVEL-IMAGES/11.jpg", /*10*/"LEVEL-IMAGES/12.jpg", /*11*/ "LEVEL-IMAGES/13.jpg",/*12*/"LEVEL-IMAGES/14.jpg",/*13*/"LEVEL-IMAGES/15.jpg"]
+let listOfLevels = [/*0*/"LEVEL-IMAGES/2.jpg", /*1*/"LEVEL-IMAGES/3.jpg", /*2*/"LEVEL-IMAGES/4.jpg", /*3*/"LEVEL-IMAGES/5.jpg", /*4*/"LEVEL-IMAGES/6.jpg", /*5*/"LEVEL-IMAGES/7.jpg", /*6*/"LEVEL-IMAGES/8.jpg", /*7*/"LEVEL-IMAGES/9.jpg", /*8*/"LEVEL-IMAGES/10.jpg", /*9*/"LEVEL-IMAGES/11.jpg", /*10*/"LEVEL-IMAGES/12.jpg", /*11*/ "LEVEL-IMAGES/13.jpg",/*12*/"LEVEL-IMAGES/14.jpg",/*13*/"LEVEL-IMAGES/15.jpg"]
 
 // create paddle object
 const paddle = {
